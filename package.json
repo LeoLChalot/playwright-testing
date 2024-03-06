@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Welcome to this repository! In this README, I'll walk you through my journey of discovering, implementing, and utilizing the Playwright tool to automate end-to-end tests. As a developer passionate about streamlining processes and improving efficiency, I found Playwright to be an invaluable addition to my toolkit.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.24"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

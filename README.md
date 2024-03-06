@@ -30,3 +30,27 @@ The adoption of Playwright has brought several benefits to my development proces
 ## Conclusion
 
 In conclusion, integrating Playwright into my testing workflow has been a game-changer. It has enabled me to create robust end-to-end tests efficiently, ensuring the quality and reliability of my web applications. I'm excited to continue exploring the capabilities of Playwright and leveraging its features to further enhance my development process.
+
+___
+
+## How to use ?
+
+```bash
+npm init playwright@latest
+```
+
+```bash
+npx playwright test --ui
+```
+
+```bash
+npx playwright show-report
+```
+
+### Updating Playwright
+
+```bash
+npm install -D @playwright/test@latest
+# Also download new browser binaries and their dependencies:
+npx playwright install --with-deps
+```
